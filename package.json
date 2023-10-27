@@ -1,28 +1,15 @@
 {
-  "name": "static",
-  "version": "1.0.0",
-  "description": "This is a static template with no bundling",
-  "main": "index.html",
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
-  },
-  "keywords": [
-    "static",
-    "template",
-    "codesandbox"
-  ],
-  "author": "Ives van Hoorne",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
-  },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
-  "devDependencies": {
-    "serve": "^11.2.0"
+  "dependencies": {
+    "astro": "^3.4.0"
   }
 }
